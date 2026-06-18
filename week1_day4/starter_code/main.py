@@ -13,9 +13,9 @@ References:
     written/4-Thursday/try-except.md
 """
 
-from product import Product
-from inventory import Inventory
-from exceptions import ProductNotFoundError, InsufficientStockError, InventoryError
+from week1_day4.starter_code.product import Product
+from week1_day4.starter_code.inventory import Inventory
+from week1_day4.starter_code.exceptions import ProductNotFoundError, InsufficientStockError, InventoryError
 
 
 def section(title: str) -> None:

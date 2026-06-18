@@ -16,8 +16,8 @@ References:
 
 from collections import deque
 
-from exceptions import ProductNotFoundError, InsufficientStockError, InventoryError
-from product import Product
+from week1_day4.starter_code.exceptions import ProductNotFoundError, InsufficientStockError, InventoryError
+from week1_day4.starter_code.product import Product
 
 
 class Inventory:
